@@ -1,0 +1,13 @@
+# 計測結果（事業者名などを含むため、公開版以外はコミットしない）
+counts_*.json
+breakdown_*.json
+!*_public.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
