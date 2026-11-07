@@ -1,0 +1,2536 @@
+{
+ "round": 7,
+ "started_at": "2026-11-07T09:49:41+0900",
+ "run_date": "2026-11-07",
+ "windows": {
+  "R7": "after:31/10/2026",
+  "R16": "after:22/10/2026",
+  "W_WAVE2": "after:01/11/2026",
+  "W_WARN": "after:04/11/2026"
+ },
+ "results": {
+  "sv_all": {
+   "query": "http.title:\"StoreView\"",
+   "queried_at": "2026-11-07T09:49:41+0900",
+   "total": 9078,
+   "summary": {},
+   "facets": {},
+   "note": null
+  },
+  "sv_clean_30d": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot",
+   "queried_at": "2026-11-07T09:49:43+0900",
+   "total": 4899,
+   "summary": {},
+   "facets": {},
+   "note": null
+  },
+  "sv_clean_noiinet_30d": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\"",
+   "queried_at": "2026-11-07T09:49:45+0900",
+   "total": 3836,
+   "summary": {},
+   "facets": {
+    "country": [
+     {
+      "count": 1302,
+      "value": "FR"
+     },
+     {
+      "count": 1176,
+      "value": "NL"
+     },
+     {
+      "count": 149,
+      "value": "CN"
+     },
+     {
+      "count": 114,
+      "value": "HK"
+     },
+     {
+      "count": 110,
+      "value": "ES"
+     },
+     {
+      "count": 102,
+      "value": "BE"
+     },
+     {
+      "count": 100,
+      "value": "PL"
+     },
+     {
+      "count": 89,
+      "value": "US"
+     },
+     {
+      "count": 63,
+      "value": "RO"
+     },
+     {
+      "count": 63,
+      "value": "SE"
+     },
+     {
+      "count": 57,
+      "value": "LV"
+     },
+     {
+      "count": 56,
+      "value": "PT"
+     },
+     {
+      "count": 56,
+      "value": "SG"
+     },
+     {
+      "count": 54,
+      "value": "DK"
+     },
+     {
+      "count": 40,
+      "value": "TR"
+     },
+     {
+      "count": 29,
+      "value": "DE"
+     },
+     {
+      "count": 28,
+      "value": "AU"
+     },
+     {
+      "count": 22,
+      "value": "KZ"
+     },
+     {
+      "count": 21,
+      "value": "NO"
+     },
+     {
+      "count": 15,
+      "value": "CH"
+     },
+     {
+      "count": 15,
+      "value": "FI"
+     },
+     {
+      "count": 12,
+      "value": "MX"
+     },
+     {
+      "count": 11,
+      "value": "GB"
+     },
+     {
+      "count": 10,
+      "value": "BR"
+     },
+     {
+      "count": 9,
+      "value": "MY"
+     },
+     {
+      "count": 9,
+      "value": "UA"
+     },
+     {
+      "count": 7,
+      "value": "ID"
+     },
+     {
+      "count": 7,
+      "value": "IS"
+     },
+     {
+      "count": 7,
+      "value": "MQ"
+     },
+     {
+      "count": 7,
+      "value": "ZA"
+     }
+    ]
+   },
+   "note": null
+  },
+  "xweb_all": {
+   "query": "http.title:\"XWEB\"",
+   "queried_at": "2026-11-07T09:49:47+0900",
+   "total": 7683,
+   "summary": {},
+   "facets": {},
+   "note": null
+  },
+  "xweb_clean_30d": {
+   "query": "http.title:\"XWEB\" -tag:cloud -tag:honeypot",
+   "queried_at": "2026-11-07T09:49:48+0900",
+   "total": 7580,
+   "summary": {},
+   "facets": {
+    "country": [
+     {
+      "count": 2599,
+      "value": "IT"
+     },
+     {
+      "count": 1440,
+      "value": "GR"
+     },
+     {
+      "count": 960,
+      "value": "IL"
+     },
+     {
+      "count": 339,
+      "value": "SK"
+     },
+     {
+      "count": 199,
+      "value": "BE"
+     },
+     {
+      "count": 181,
+      "value": "CZ"
+     },
+     {
+      "count": 159,
+      "value": "NL"
+     },
+     {
+      "count": 142,
+      "value": "HU"
+     },
+     {
+      "count": 136,
+      "value": "TR"
+     },
+     {
+      "count": 132,
+      "value": "ES"
+     },
+     {
+      "count": 118,
+      "value": "BR"
+     },
+     {
+      "count": 114,
+      "value": "FR"
+     },
+     {
+      "count": 113,
+      "value": "BG"
+     },
+     {
+      "count": 99,
+      "value": "DE"
+     },
+     {
+      "count": 74,
+      "value": "GB"
+     },
+     {
+      "count": 66,
+      "value": "RO"
+     },
+     {
+      "count": 62,
+      "value": "CA"
+     },
+     {
+      "count": 60,
+      "value": "JP"
+     },
+     {
+      "count": 59,
+      "value": "PL"
+     },
+     {
+      "count": 50,
+      "value": "AT"
+     },
+     {
+      "count": 40,
+      "value": "UA"
+     },
+     {
+      "count": 35,
+      "value": "SE"
+     },
+     {
+      "count": 31,
+      "value": "KZ"
+     },
+     {
+      "count": 31,
+      "value": "TH"
+     },
+     {
+      "count": 21,
+      "value": "SI"
+     },
+     {
+      "count": 21,
+      "value": "VN"
+     },
+     {
+      "count": 20,
+      "value": "IE"
+     },
+     {
+      "count": 20,
+      "value": "PH"
+     },
+     {
+      "count": 19,
+      "value": "SG"
+     },
+     {
+      "count": 19,
+      "value": "US"
+     }
+    ]
+   },
+   "note": null
+  },
+  "iinet_30d": {
+   "query": "http.title:\"StoreView\" org:\"iiNet Connect Pty Ltd\"",
+   "queried_at": "2026-11-07T09:49:49+0900",
+   "total": 1062,
+   "summary": {},
+   "facets": {},
+   "note": null
+  },
+  "sv_clean_r16": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot after:22/10/2026",
+   "queried_at": "2026-11-07T09:49:51+0900",
+   "total": 3130,
+   "summary": {},
+   "facets": {},
+   "note": null
+  },
+  "sv_clean_r7": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot after:31/10/2026",
+   "queried_at": "2026-11-07T09:49:52+0900",
+   "total": 2346,
+   "summary": {},
+   "facets": {},
+   "note": null
+  },
+  "sv_noiinet_r16": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" after:22/10/2026",
+   "queried_at": "2026-11-07T09:49:53+0900",
+   "total": 2536,
+   "summary": {},
+   "facets": {
+    "country": [
+     {
+      "count": 1160,
+      "value": "NL"
+     },
+     {
+      "count": 301,
+      "value": "FR"
+     },
+     {
+      "count": 142,
+      "value": "CN"
+     },
+     {
+      "count": 114,
+      "value": "HK"
+     },
+     {
+      "count": 90,
+      "value": "ES"
+     },
+     {
+      "count": 72,
+      "value": "US"
+     },
+     {
+      "count": 62,
+      "value": "PL"
+     },
+     {
+      "count": 57,
+      "value": "LV"
+     },
+     {
+      "count": 56,
+      "value": "SG"
+     },
+     {
+      "count": 52,
+      "value": "BE"
+     },
+     {
+      "count": 51,
+      "value": "RO"
+     },
+     {
+      "count": 46,
+      "value": "SE"
+     },
+     {
+      "count": 44,
+      "value": "DK"
+     },
+     {
+      "count": 32,
+      "value": "TR"
+     },
+     {
+      "count": 22,
+      "value": "PT"
+     },
+     {
+      "count": 21,
+      "value": "DE"
+     },
+     {
+      "count": 20,
+      "value": "AU"
+     },
+     {
+      "count": 17,
+      "value": "KZ"
+     },
+     {
+      "count": 17,
+      "value": "NO"
+     },
+     {
+      "count": 13,
+      "value": "CH"
+     },
+     {
+      "count": 11,
+      "value": "GB"
+     },
+     {
+      "count": 11,
+      "value": "MX"
+     },
+     {
+      "count": 10,
+      "value": "FI"
+     },
+     {
+      "count": 8,
+      "value": "UA"
+     },
+     {
+      "count": 7,
+      "value": "BR"
+     },
+     {
+      "count": 7,
+      "value": "ID"
+     },
+     {
+      "count": 6,
+      "value": "ZA"
+     },
+     {
+      "count": 5,
+      "value": "KR"
+     },
+     {
+      "count": 5,
+      "value": "MQ"
+     },
+     {
+      "count": 5,
+      "value": "MY"
+     }
+    ]
+   },
+   "note": null
+  },
+  "sv_noiinet_r7": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" after:31/10/2026",
+   "queried_at": "2026-11-07T09:49:55+0900",
+   "total": 2086,
+   "summary": {},
+   "facets": {
+    "country": [
+     {
+      "count": 1140,
+      "value": "NL"
+     },
+     {
+      "count": 185,
+      "value": "FR"
+     },
+     {
+      "count": 142,
+      "value": "CN"
+     },
+     {
+      "count": 114,
+      "value": "HK"
+     },
+     {
+      "count": 57,
+      "value": "LV"
+     },
+     {
+      "count": 56,
+      "value": "SG"
+     },
+     {
+      "count": 48,
+      "value": "US"
+     },
+     {
+      "count": 42,
+      "value": "ES"
+     },
+     {
+      "count": 32,
+      "value": "TR"
+     },
+     {
+      "count": 22,
+      "value": "BE"
+     },
+     {
+      "count": 22,
+      "value": "SE"
+     },
+     {
+      "count": 21,
+      "value": "DK"
+     },
+     {
+      "count": 21,
+      "value": "PL"
+     },
+     {
+      "count": 18,
+      "value": "RO"
+     },
+     {
+      "count": 17,
+      "value": "AU"
+     },
+     {
+      "count": 15,
+      "value": "DE"
+     },
+     {
+      "count": 13,
+      "value": "KZ"
+     },
+     {
+      "count": 11,
+      "value": "PT"
+     },
+     {
+      "count": 10,
+      "value": "GB"
+     },
+     {
+      "count": 9,
+      "value": "MX"
+     },
+     {
+      "count": 9,
+      "value": "NO"
+     },
+     {
+      "count": 7,
+      "value": "ID"
+     },
+     {
+      "count": 6,
+      "value": "BR"
+     },
+     {
+      "count": 5,
+      "value": "CH"
+     },
+     {
+      "count": 5,
+      "value": "FI"
+     },
+     {
+      "count": 5,
+      "value": "KR"
+     },
+     {
+      "count": 5,
+      "value": "TH"
+     },
+     {
+      "count": 5,
+      "value": "UA"
+     },
+     {
+      "count": 5,
+      "value": "ZA"
+     },
+     {
+      "count": 4,
+      "value": "PH"
+     }
+    ]
+   },
+   "note": null
+  },
+  "iinet_r16": {
+   "query": "http.title:\"StoreView\" org:\"iiNet Connect Pty Ltd\" after:22/10/2026",
+   "queried_at": "2026-11-07T09:49:56+0900",
+   "total": 597,
+   "summary": {},
+   "facets": {},
+   "note": null
+  },
+  "iinet_r7": {
+   "query": "http.title:\"StoreView\" org:\"iiNet Connect Pty Ltd\" after:31/10/2026",
+   "queried_at": "2026-11-07T09:49:57+0900",
+   "total": 264,
+   "summary": {},
+   "facets": {},
+   "note": null
+  },
+  "xweb_clean_r16": {
+   "query": "http.title:\"XWEB\" -tag:cloud -tag:honeypot after:22/10/2026",
+   "queried_at": "2026-11-07T09:49:59+0900",
+   "total": 5186,
+   "summary": {},
+   "facets": {
+    "country": [
+     {
+      "count": 1577,
+      "value": "IT"
+     },
+     {
+      "count": 947,
+      "value": "GR"
+     },
+     {
+      "count": 624,
+      "value": "IL"
+     },
+     {
+      "count": 175,
+      "value": "CZ"
+     },
+     {
+      "count": 165,
+      "value": "SK"
+     },
+     {
+      "count": 148,
+      "value": "BE"
+     },
+     {
+      "count": 121,
+      "value": "NL"
+     },
+     {
+      "count": 116,
+      "value": "HU"
+     },
+     {
+      "count": 115,
+      "value": "TR"
+     },
+     {
+      "count": 114,
+      "value": "ES"
+     },
+     {
+      "count": 104,
+      "value": "BG"
+     },
+     {
+      "count": 99,
+      "value": "BR"
+     },
+     {
+      "count": 76,
+      "value": "DE"
+     },
+     {
+      "count": 64,
+      "value": "GB"
+     },
+     {
+      "count": 62,
+      "value": "CA"
+     },
+     {
+      "count": 61,
+      "value": "RO"
+     },
+     {
+      "count": 60,
+      "value": "JP"
+     },
+     {
+      "count": 49,
+      "value": "PL"
+     },
+     {
+      "count": 43,
+      "value": "AT"
+     },
+     {
+      "count": 40,
+      "value": "FR"
+     },
+     {
+      "count": 35,
+      "value": "SE"
+     },
+     {
+      "count": 33,
+      "value": "UA"
+     },
+     {
+      "count": 30,
+      "value": "KZ"
+     },
+     {
+      "count": 21,
+      "value": "SI"
+     },
+     {
+      "count": 20,
+      "value": "PH"
+     },
+     {
+      "count": 19,
+      "value": "US"
+     },
+     {
+      "count": 18,
+      "value": "SG"
+     },
+     {
+      "count": 17,
+      "value": "IE"
+     },
+     {
+      "count": 17,
+      "value": "VN"
+     },
+     {
+      "count": 16,
+      "value": "LT"
+     }
+    ]
+   },
+   "note": null
+  },
+  "xweb_clean_r7": {
+   "query": "http.title:\"XWEB\" -tag:cloud -tag:honeypot after:31/10/2026",
+   "queried_at": "2026-11-07T09:50:00+0900",
+   "total": 2330,
+   "summary": {},
+   "facets": {
+    "country": [
+     {
+      "count": 531,
+      "value": "IT"
+     },
+     {
+      "count": 420,
+      "value": "GR"
+     },
+     {
+      "count": 234,
+      "value": "IL"
+     },
+     {
+      "count": 126,
+      "value": "CZ"
+     },
+     {
+      "count": 68,
+      "value": "ES"
+     },
+     {
+      "count": 67,
+      "value": "TR"
+     },
+     {
+      "count": 64,
+      "value": "BE"
+     },
+     {
+      "count": 63,
+      "value": "CA"
+     },
+     {
+      "count": 60,
+      "value": "JP"
+     },
+     {
+      "count": 56,
+      "value": "NL"
+     },
+     {
+      "count": 55,
+      "value": "HU"
+     },
+     {
+      "count": 51,
+      "value": "BR"
+     },
+     {
+      "count": 44,
+      "value": "GB"
+     },
+     {
+      "count": 43,
+      "value": "DE"
+     },
+     {
+      "count": 42,
+      "value": "BG"
+     },
+     {
+      "count": 41,
+      "value": "RO"
+     },
+     {
+      "count": 35,
+      "value": "SE"
+     },
+     {
+      "count": 28,
+      "value": "FR"
+     },
+     {
+      "count": 28,
+      "value": "PL"
+     },
+     {
+      "count": 27,
+      "value": "AT"
+     },
+     {
+      "count": 25,
+      "value": "KZ"
+     },
+     {
+      "count": 23,
+      "value": "UA"
+     },
+     {
+      "count": 17,
+      "value": "SG"
+     },
+     {
+      "count": 15,
+      "value": "SI"
+     },
+     {
+      "count": 14,
+      "value": "IS"
+     },
+     {
+      "count": 12,
+      "value": "PH"
+     },
+     {
+      "count": 11,
+      "value": "VN"
+     },
+     {
+      "count": 10,
+      "value": "AR"
+     },
+     {
+      "count": 10,
+      "value": "IE"
+     },
+     {
+      "count": 10,
+      "value": "US"
+     }
+    ]
+   },
+   "note": null
+  },
+  "sv_noiinet_wave2": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" after:01/11/2026",
+   "queried_at": "2026-11-07T09:50:01+0900",
+   "total": 2021,
+   "summary": {},
+   "facets": {
+    "country": [
+     {
+      "count": 1134,
+      "value": "NL"
+     },
+     {
+      "count": 171,
+      "value": "FR"
+     },
+     {
+      "count": 142,
+      "value": "CN"
+     },
+     {
+      "count": 114,
+      "value": "HK"
+     },
+     {
+      "count": 57,
+      "value": "LV"
+     },
+     {
+      "count": 56,
+      "value": "SG"
+     },
+     {
+      "count": 44,
+      "value": "US"
+     },
+     {
+      "count": 36,
+      "value": "ES"
+     },
+     {
+      "count": 32,
+      "value": "TR"
+     },
+     {
+      "count": 18,
+      "value": "PL"
+     },
+     {
+      "count": 17,
+      "value": "BE"
+     },
+     {
+      "count": 17,
+      "value": "DK"
+     },
+     {
+      "count": 17,
+      "value": "SE"
+     },
+     {
+      "count": 15,
+      "value": "AU"
+     },
+     {
+      "count": 13,
+      "value": "DE"
+     },
+     {
+      "count": 13,
+      "value": "RO"
+     },
+     {
+      "count": 12,
+      "value": "KZ"
+     },
+     {
+      "count": 10,
+      "value": "GB"
+     },
+     {
+      "count": 10,
+      "value": "PT"
+     },
+     {
+      "count": 9,
+      "value": "MX"
+     },
+     {
+      "count": 8,
+      "value": "NO"
+     },
+     {
+      "count": 7,
+      "value": "ID"
+     },
+     {
+      "count": 6,
+      "value": "BR"
+     },
+     {
+      "count": 5,
+      "value": "FI"
+     },
+     {
+      "count": 5,
+      "value": "KR"
+     },
+     {
+      "count": 5,
+      "value": "TH"
+     },
+     {
+      "count": 5,
+      "value": "UA"
+     },
+     {
+      "count": 4,
+      "value": "CH"
+     },
+     {
+      "count": 4,
+      "value": "PH"
+     },
+     {
+      "count": 4,
+      "value": "ZA"
+     }
+    ]
+   },
+   "note": null
+  },
+  "sv_noiinet_warn": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" after:04/11/2026",
+   "queried_at": "2026-11-07T09:50:03+0900",
+   "total": 1853,
+   "summary": {},
+   "facets": {
+    "country": [
+     {
+      "count": 1125,
+      "value": "NL"
+     },
+     {
+      "count": 141,
+      "value": "CN"
+     },
+     {
+      "count": 132,
+      "value": "FR"
+     },
+     {
+      "count": 114,
+      "value": "HK"
+     },
+     {
+      "count": 57,
+      "value": "LV"
+     },
+     {
+      "count": 56,
+      "value": "SG"
+     },
+     {
+      "count": 33,
+      "value": "US"
+     },
+     {
+      "count": 32,
+      "value": "TR"
+     },
+     {
+      "count": 18,
+      "value": "ES"
+     },
+     {
+      "count": 13,
+      "value": "AU"
+     },
+     {
+      "count": 11,
+      "value": "DE"
+     },
+     {
+      "count": 10,
+      "value": "PL"
+     },
+     {
+      "count": 9,
+      "value": "DK"
+     },
+     {
+      "count": 8,
+      "value": "PT"
+     },
+     {
+      "count": 7,
+      "value": "GB"
+     },
+     {
+      "count": 7,
+      "value": "KZ"
+     },
+     {
+      "count": 6,
+      "value": "ID"
+     },
+     {
+      "count": 6,
+      "value": "SE"
+     },
+     {
+      "count": 5,
+      "value": "BE"
+     },
+     {
+      "count": 5,
+      "value": "BR"
+     },
+     {
+      "count": 5,
+      "value": "KR"
+     },
+     {
+      "count": 5,
+      "value": "MX"
+     },
+     {
+      "count": 5,
+      "value": "TH"
+     },
+     {
+      "count": 4,
+      "value": "PH"
+     },
+     {
+      "count": 4,
+      "value": "UA"
+     },
+     {
+      "count": 4,
+      "value": "ZA"
+     },
+     {
+      "count": 3,
+      "value": "FI"
+     },
+     {
+      "count": 3,
+      "value": "MQ"
+     },
+     {
+      "count": 3,
+      "value": "NO"
+     },
+     {
+      "count": 2,
+      "value": "GR"
+     }
+    ]
+   },
+   "note": null
+  },
+  "xweb_clean_wave2": {
+   "query": "http.title:\"XWEB\" -tag:cloud -tag:honeypot after:01/11/2026",
+   "queried_at": "2026-11-07T09:50:04+0900",
+   "total": 2074,
+   "summary": {},
+   "facets": {
+    "country": [
+     {
+      "count": 457,
+      "value": "IT"
+     },
+     {
+      "count": 363,
+      "value": "GR"
+     },
+     {
+      "count": 200,
+      "value": "IL"
+     },
+     {
+      "count": 125,
+      "value": "CZ"
+     },
+     {
+      "count": 63,
+      "value": "CA"
+     },
+     {
+      "count": 62,
+      "value": "TR"
+     },
+     {
+      "count": 61,
+      "value": "JP"
+     },
+     {
+      "count": 57,
+      "value": "BE"
+     },
+     {
+      "count": 57,
+      "value": "ES"
+     },
+     {
+      "count": 52,
+      "value": "HU"
+     },
+     {
+      "count": 47,
+      "value": "BR"
+     },
+     {
+      "count": 40,
+      "value": "GB"
+     },
+     {
+      "count": 40,
+      "value": "NL"
+     },
+     {
+      "count": 39,
+      "value": "BG"
+     },
+     {
+      "count": 37,
+      "value": "DE"
+     },
+     {
+      "count": 36,
+      "value": "RO"
+     },
+     {
+      "count": 35,
+      "value": "SE"
+     },
+     {
+      "count": 27,
+      "value": "AT"
+     },
+     {
+      "count": 25,
+      "value": "FR"
+     },
+     {
+      "count": 25,
+      "value": "KZ"
+     },
+     {
+      "count": 19,
+      "value": "UA"
+     },
+     {
+      "count": 18,
+      "value": "PL"
+     },
+     {
+      "count": 14,
+      "value": "IS"
+     },
+     {
+      "count": 14,
+      "value": "SG"
+     },
+     {
+      "count": 14,
+      "value": "SI"
+     },
+     {
+      "count": 12,
+      "value": "PH"
+     },
+     {
+      "count": 10,
+      "value": "IE"
+     },
+     {
+      "count": 10,
+      "value": "US"
+     },
+     {
+      "count": 10,
+      "value": "VN"
+     },
+     {
+      "count": 9,
+      "value": "AR"
+     }
+    ]
+   },
+   "note": null
+  },
+  "xweb_clean_warn": {
+   "query": "http.title:\"XWEB\" -tag:cloud -tag:honeypot after:04/11/2026",
+   "queried_at": "2026-11-07T09:50:06+0900",
+   "total": 1105,
+   "summary": {},
+   "facets": {
+    "country": [
+     {
+      "count": 199,
+      "value": "IT"
+     },
+     {
+      "count": 175,
+      "value": "GR"
+     },
+     {
+      "count": 89,
+      "value": "CZ"
+     },
+     {
+      "count": 80,
+      "value": "IL"
+     },
+     {
+      "count": 63,
+      "value": "CA"
+     },
+     {
+      "count": 60,
+      "value": "JP"
+     },
+     {
+      "count": 39,
+      "value": "TR"
+     },
+     {
+      "count": 35,
+      "value": "SE"
+     },
+     {
+      "count": 30,
+      "value": "ES"
+     },
+     {
+      "count": 26,
+      "value": "HU"
+     },
+     {
+      "count": 26,
+      "value": "RO"
+     },
+     {
+      "count": 24,
+      "value": "GB"
+     },
+     {
+      "count": 21,
+      "value": "BR"
+     },
+     {
+      "count": 17,
+      "value": "BG"
+     },
+     {
+      "count": 16,
+      "value": "FR"
+     },
+     {
+      "count": 16,
+      "value": "KZ"
+     },
+     {
+      "count": 14,
+      "value": "AT"
+     },
+     {
+      "count": 14,
+      "value": "BE"
+     },
+     {
+      "count": 14,
+      "value": "IS"
+     },
+     {
+      "count": 12,
+      "value": "DE"
+     },
+     {
+      "count": 12,
+      "value": "UA"
+     },
+     {
+      "count": 10,
+      "value": "SG"
+     },
+     {
+      "count": 9,
+      "value": "US"
+     },
+     {
+      "count": 8,
+      "value": "PH"
+     },
+     {
+      "count": 8,
+      "value": "PL"
+     },
+     {
+      "count": 7,
+      "value": "SI"
+     },
+     {
+      "count": 6,
+      "value": "AR"
+     },
+     {
+      "count": 6,
+      "value": "LT"
+     },
+     {
+      "count": 5,
+      "value": "MY"
+     },
+     {
+      "count": 5,
+      "value": "SK"
+     }
+    ]
+   },
+   "note": null
+  },
+  "sv_fr_r7": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot country:FR after:31/10/2026",
+   "queried_at": "2026-11-07T09:50:07+0900",
+   "total": 185,
+   "summary": {},
+   "facets": {},
+   "note": null
+  },
+  "sv_us_noiinet_30d": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:US",
+   "queried_at": "2026-11-07T09:50:08+0900",
+   "total": 89,
+   "summary": {},
+   "facets": {
+    "country": [
+     {
+      "count": 89,
+      "value": "US"
+     }
+    ],
+    "tag": [
+     {
+      "count": 21,
+      "value": "eol-product"
+     },
+     {
+      "count": 7,
+      "value": "self-signed"
+     }
+    ],
+    "http.title": [
+     {
+      "count": 67,
+      "value": "Danfoss StoreView"
+     },
+     {
+      "count": 22,
+      "value": "Danfoss - StoreView Web"
+     }
+    ],
+    "version": [
+     {
+      "count": 10,
+      "value": "1.26.0"
+     },
+     {
+      "count": 8,
+      "value": "1.12.2"
+     },
+     {
+      "count": 2,
+      "value": "1.21.1"
+     },
+     {
+      "count": 1,
+      "value": "1.27.1"
+     }
+    ],
+    "port": [
+     {
+      "count": 25,
+      "value": 443
+     },
+     {
+      "count": 19,
+      "value": 80
+     },
+     {
+      "count": 9,
+      "value": 5080
+     },
+     {
+      "count": 4,
+      "value": 81
+     },
+     {
+      "count": 3,
+      "value": 82
+     },
+     {
+      "count": 3,
+      "value": 84
+     },
+     {
+      "count": 3,
+      "value": 8080
+     },
+     {
+      "count": 3,
+      "value": 8081
+     },
+     {
+      "count": 2,
+      "value": 83
+     },
+     {
+      "count": 2,
+      "value": 8443
+     }
+    ]
+   },
+   "note": null
+  },
+  "sv_us_noiinet_r16": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:US after:22/10/2026",
+   "queried_at": "2026-11-07T09:50:10+0900",
+   "total": 72,
+   "summary": {},
+   "facets": {},
+   "note": null
+  },
+  "xweb_us_30d": {
+   "query": "http.title:\"XWEB\" -tag:cloud -tag:honeypot country:US",
+   "queried_at": "2026-11-07T09:50:11+0900",
+   "total": 19,
+   "summary": {},
+   "facets": {
+    "country": [
+     {
+      "count": 19,
+      "value": "US"
+     }
+    ],
+    "tag": [
+     {
+      "count": 3,
+      "value": "self-signed"
+     },
+     {
+      "count": 1,
+      "value": "pqc"
+     }
+    ],
+    "http.title": [
+     {
+      "count": 13,
+      "value": "XWEB"
+     },
+     {
+      "count": 3,
+      "value": "XWEB EVO"
+     },
+     {
+      "value": "(other titles, redacted)",
+      "count": 3
+     }
+    ],
+    "version": [
+     {
+      "count": 1,
+      "value": "2.4.68"
+     }
+    ],
+    "port": [
+     {
+      "count": 5,
+      "value": 443
+     },
+     {
+      "count": 3,
+      "value": 80
+     },
+     {
+      "count": 2,
+      "value": 8081
+     },
+     {
+      "count": 1,
+      "value": 8021
+     },
+     {
+      "count": 1,
+      "value": 8080
+     },
+     {
+      "count": 1,
+      "value": 8910
+     },
+     {
+      "count": 1,
+      "value": 9090
+     },
+     {
+      "count": 1,
+      "value": 10090
+     },
+     {
+      "count": 1,
+      "value": 11602
+     },
+     {
+      "count": 1,
+      "value": 17001
+     }
+    ]
+   },
+   "note": null
+  },
+  "xweb_us_r16": {
+   "query": "http.title:\"XWEB\" -tag:cloud -tag:honeypot country:US after:22/10/2026",
+   "queried_at": "2026-11-07T09:50:12+0900",
+   "total": 19,
+   "summary": {},
+   "facets": {},
+   "note": null
+  },
+  "xweb_be_r16": {
+   "query": "http.title:\"XWEB\" -tag:cloud -tag:honeypot country:BE after:22/10/2026",
+   "queried_at": "2026-11-07T09:50:13+0900",
+   "total": 148,
+   "summary": {},
+   "facets": {},
+   "note": null
+  },
+  "xweb_it_r7": {
+   "query": "http.title:\"XWEB\" -tag:cloud -tag:honeypot country:IT after:31/10/2026",
+   "queried_at": "2026-11-07T09:50:15+0900",
+   "total": 531,
+   "summary": {},
+   "facets": {},
+   "note": null
+  },
+  "xweb_il_r7": {
+   "query": "http.title:\"XWEB\" -tag:cloud -tag:honeypot country:IL after:31/10/2026",
+   "queried_at": "2026-11-07T09:50:16+0900",
+   "total": 234,
+   "summary": {},
+   "facets": {},
+   "note": null
+  },
+  "xweb_gb_r16": {
+   "query": "http.title:\"XWEB\" -tag:cloud -tag:honeypot country:GB after:22/10/2026",
+   "queried_at": "2026-11-07T09:50:17+0900",
+   "total": 64,
+   "summary": {},
+   "facets": {},
+   "note": null
+  },
+  "sv_gb_noiinet_r16": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:GB after:22/10/2026",
+   "queried_at": "2026-11-07T09:50:19+0900",
+   "total": 11,
+   "summary": {},
+   "facets": {},
+   "note": null
+  },
+  "sv_old_title_r16": {
+   "query": "http.title:\"Danfoss StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" after:22/10/2026",
+   "queried_at": "2026-11-07T09:50:20+0900",
+   "total": 2453,
+   "summary": {},
+   "facets": {},
+   "note": null
+  },
+  "sv_web_title_r16": {
+   "query": "http.title:\"Danfoss - StoreView Web\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" after:22/10/2026",
+   "queried_at": "2026-11-07T09:50:21+0900",
+   "total": 175,
+   "summary": {},
+   "facets": {},
+   "note": null
+  },
+  "xweb_evo_r16": {
+   "query": "http.title:\"XWEB EVO\" -tag:cloud -tag:honeypot after:22/10/2026",
+   "queried_at": "2026-11-07T09:50:23+0900",
+   "total": 1385,
+   "summary": {},
+   "facets": {
+    "country": [
+     {
+      "count": 281,
+      "value": "IT"
+     },
+     {
+      "count": 158,
+      "value": "SK"
+     },
+     {
+      "count": 115,
+      "value": "BE"
+     },
+     {
+      "count": 77,
+      "value": "CZ"
+     },
+     {
+      "count": 74,
+      "value": "GR"
+     },
+     {
+      "count": 71,
+      "value": "ES"
+     },
+     {
+      "count": 53,
+      "value": "HU"
+     },
+     {
+      "count": 53,
+      "value": "NL"
+     },
+     {
+      "count": 51,
+      "value": "BG"
+     },
+     {
+      "count": 50,
+      "value": "BR"
+     },
+     {
+      "count": 38,
+      "value": "RO"
+     },
+     {
+      "count": 34,
+      "value": "DE"
+     },
+     {
+      "count": 33,
+      "value": "TR"
+     },
+     {
+      "count": 28,
+      "value": "IL"
+     },
+     {
+      "count": 22,
+      "value": "FR"
+     },
+     {
+      "count": 21,
+      "value": "AT"
+     },
+     {
+      "count": 20,
+      "value": "GB"
+     },
+     {
+      "count": 20,
+      "value": "PL"
+     },
+     {
+      "count": 19,
+      "value": "UA"
+     },
+     {
+      "count": 13,
+      "value": "KZ"
+     },
+     {
+      "count": 13,
+      "value": "SG"
+     },
+     {
+      "count": 12,
+      "value": "IE"
+     },
+     {
+      "count": 12,
+      "value": "ZA"
+     },
+     {
+      "count": 10,
+      "value": "MY"
+     },
+     {
+      "count": 9,
+      "value": "AR"
+     },
+     {
+      "count": 9,
+      "value": "HK"
+     },
+     {
+      "count": 8,
+      "value": "AU"
+     },
+     {
+      "count": 8,
+      "value": "MD"
+     },
+     {
+      "count": 8,
+      "value": "VN"
+     },
+     {
+      "count": 6,
+      "value": "SI"
+     }
+    ]
+   },
+   "note": null
+  },
+  "xweb_pro_r16": {
+   "query": "http.title:\"XWEB PRO\" -tag:cloud -tag:honeypot after:22/10/2026",
+   "queried_at": "2026-11-07T09:50:24+0900",
+   "total": 95,
+   "summary": {},
+   "facets": {
+    "country": [
+     {
+      "count": 19,
+      "value": "IT"
+     },
+     {
+      "count": 15,
+      "value": "PH"
+     },
+     {
+      "count": 8,
+      "value": "BG"
+     },
+     {
+      "count": 5,
+      "value": "GR"
+     },
+     {
+      "count": 5,
+      "value": "KZ"
+     },
+     {
+      "count": 4,
+      "value": "CZ"
+     },
+     {
+      "count": 4,
+      "value": "RO"
+     },
+     {
+      "count": 4,
+      "value": "VN"
+     },
+     {
+      "count": 3,
+      "value": "IL"
+     },
+     {
+      "count": 3,
+      "value": "KR"
+     },
+     {
+      "count": 3,
+      "value": "NA"
+     },
+     {
+      "count": 3,
+      "value": "NL"
+     },
+     {
+      "count": 3,
+      "value": "SI"
+     },
+     {
+      "count": 3,
+      "value": "TR"
+     },
+     {
+      "count": 2,
+      "value": "BR"
+     }
+    ],
+    "tag": [
+     {
+      "count": 27,
+      "value": "self-signed"
+     }
+    ],
+    "http.title": [
+     {
+      "count": 95,
+      "value": "XWEB PRO"
+     }
+    ],
+    "version": [],
+    "port": [
+     {
+      "count": 33,
+      "value": 80
+     },
+     {
+      "count": 23,
+      "value": 443
+     },
+     {
+      "count": 12,
+      "value": 8080
+     },
+     {
+      "count": 6,
+      "value": 81
+     },
+     {
+      "count": 5,
+      "value": 8090
+     },
+     {
+      "count": 1,
+      "value": 90
+     },
+     {
+      "count": 1,
+      "value": 98
+     },
+     {
+      "count": 1,
+      "value": 444
+     },
+     {
+      "count": 1,
+      "value": 1080
+     },
+     {
+      "count": 1,
+      "value": 3100
+     }
+    ]
+   },
+   "note": null
+  },
+  "xweb_plain_r16": {
+   "query": "http.title:\"XWEB\" -http.title:\"EVO\" -http.title:\"PRO\" -tag:cloud -tag:honeypot after:22/10/2026",
+   "queried_at": "2026-11-07T09:50:25+0900",
+   "total": 3707,
+   "summary": {},
+   "facets": {
+    "country": [
+     {
+      "count": 1277,
+      "value": "IT"
+     },
+     {
+      "count": 868,
+      "value": "GR"
+     },
+     {
+      "count": 593,
+      "value": "IL"
+     },
+     {
+      "count": 94,
+      "value": "CZ"
+     },
+     {
+      "count": 79,
+      "value": "TR"
+     },
+     {
+      "count": 65,
+      "value": "NL"
+     },
+     {
+      "count": 63,
+      "value": "CA"
+     },
+     {
+      "count": 61,
+      "value": "HU"
+     },
+     {
+      "count": 60,
+      "value": "JP"
+     },
+     {
+      "count": 47,
+      "value": "BR"
+     },
+     {
+      "count": 45,
+      "value": "BG"
+     },
+     {
+      "count": 43,
+      "value": "ES"
+     },
+     {
+      "count": 43,
+      "value": "GB"
+     },
+     {
+      "count": 40,
+      "value": "DE"
+     },
+     {
+      "count": 35,
+      "value": "SE"
+     },
+     {
+      "count": 33,
+      "value": "BE"
+     },
+     {
+      "count": 29,
+      "value": "PL"
+     },
+     {
+      "count": 21,
+      "value": "AT"
+     },
+     {
+      "count": 19,
+      "value": "RO"
+     },
+     {
+      "count": 18,
+      "value": "FR"
+     },
+     {
+      "count": 16,
+      "value": "US"
+     },
+     {
+      "count": 14,
+      "value": "IS"
+     },
+     {
+      "count": 14,
+      "value": "UA"
+     },
+     {
+      "count": 12,
+      "value": "KZ"
+     },
+     {
+      "count": 12,
+      "value": "LT"
+     },
+     {
+      "count": 12,
+      "value": "SI"
+     },
+     {
+      "count": 10,
+      "value": "TH"
+     },
+     {
+      "count": 8,
+      "value": "TW"
+     },
+     {
+      "count": 7,
+      "value": "SK"
+     },
+     {
+      "count": 6,
+      "value": "AL"
+     }
+    ]
+   },
+   "note": null
+  },
+  "xweb_pro_30d": {
+   "query": "http.title:\"XWEB PRO\" -tag:cloud -tag:honeypot",
+   "queried_at": "2026-11-07T09:50:27+0900",
+   "total": 112,
+   "summary": {},
+   "facets": {
+    "country": [
+     {
+      "count": 25,
+      "value": "IT"
+     },
+     {
+      "count": 15,
+      "value": "PH"
+     },
+     {
+      "count": 8,
+      "value": "BG"
+     },
+     {
+      "count": 6,
+      "value": "DE"
+     },
+     {
+      "count": 6,
+      "value": "GR"
+     },
+     {
+      "count": 6,
+      "value": "KZ"
+     },
+     {
+      "count": 5,
+      "value": "CZ"
+     },
+     {
+      "count": 5,
+      "value": "RO"
+     },
+     {
+      "count": 4,
+      "value": "VN"
+     },
+     {
+      "count": 3,
+      "value": "IL"
+     },
+     {
+      "count": 3,
+      "value": "KR"
+     },
+     {
+      "count": 3,
+      "value": "NA"
+     },
+     {
+      "count": 3,
+      "value": "NL"
+     },
+     {
+      "count": 3,
+      "value": "SI"
+     },
+     {
+      "count": 3,
+      "value": "TR"
+     }
+    ],
+    "tag": [
+     {
+      "count": 30,
+      "value": "self-signed"
+     }
+    ],
+    "http.title": [
+     {
+      "count": 112,
+      "value": "XWEB PRO"
+     }
+    ],
+    "version": [],
+    "port": [
+     {
+      "count": 40,
+      "value": 80
+     },
+     {
+      "count": 25,
+      "value": 443
+     },
+     {
+      "count": 13,
+      "value": 8080
+     },
+     {
+      "count": 6,
+      "value": 81
+     },
+     {
+      "count": 6,
+      "value": 8090
+     },
+     {
+      "count": 1,
+      "value": 90
+     },
+     {
+      "count": 1,
+      "value": 98
+     },
+     {
+      "count": 1,
+      "value": 444
+     },
+     {
+      "count": 1,
+      "value": 1080
+     },
+     {
+      "count": 1,
+      "value": 3100
+     }
+    ]
+   },
+   "note": null
+  },
+  "xweb_ssl_r16": {
+   "query": "http.title:\"XWEB\" -tag:cloud -tag:honeypot ssl:true after:22/10/2026",
+   "queried_at": "2026-11-07T09:50:28+0900",
+   "total": 414,
+   "summary": {
+    "ssl.cert.fingerprint_distinct": 354,
+    "ssl.cert.fingerprint_sum": 414
+   },
+   "facets": {
+    "country": [
+     {
+      "count": 111,
+      "value": "IT"
+     },
+     {
+      "count": 25,
+      "value": "HU"
+     },
+     {
+      "count": 23,
+      "value": "DE"
+     },
+     {
+      "count": 21,
+      "value": "AT"
+     },
+     {
+      "count": 21,
+      "value": "TR"
+     },
+     {
+      "count": 19,
+      "value": "BG"
+     },
+     {
+      "count": 18,
+      "value": "GB"
+     },
+     {
+      "count": 16,
+      "value": "ES"
+     },
+     {
+      "count": 14,
+      "value": "GR"
+     },
+     {
+      "count": 13,
+      "value": "BR"
+     },
+     {
+      "count": 11,
+      "value": "RO"
+     },
+     {
+      "count": 10,
+      "value": "KZ"
+     },
+     {
+      "count": 9,
+      "value": "BE"
+     },
+     {
+      "count": 9,
+      "value": "LT"
+     },
+     {
+      "count": 8,
+      "value": "PH"
+     }
+    ],
+    "port": [
+     {
+      "count": 315,
+      "value": 443
+     },
+     {
+      "count": 33,
+      "value": 8443
+     },
+     {
+      "count": 13,
+      "value": 10443
+     },
+     {
+      "count": 10,
+      "value": 4443
+     },
+     {
+      "count": 8,
+      "value": 8880
+     },
+     {
+      "count": 6,
+      "value": 8089
+     },
+     {
+      "count": 5,
+      "value": 8081
+     },
+     {
+      "count": 4,
+      "value": 4444
+     },
+     {
+      "count": 3,
+      "value": 4433
+     },
+     {
+      "count": 3,
+      "value": 8181
+     }
+    ]
+   },
+   "note": null
+  },
+  "sv_ssl_r16": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" ssl:true after:22/10/2026",
+   "queried_at": "2026-11-07T09:50:34+0900",
+   "total": 347,
+   "summary": {
+    "ssl.cert.fingerprint_distinct": 311,
+    "ssl.cert.fingerprint_sum": 347
+   },
+   "facets": {
+    "country": [
+     {
+      "count": 75,
+      "value": "FR"
+     },
+     {
+      "count": 42,
+      "value": "ES"
+     },
+     {
+      "count": 29,
+      "value": "PL"
+     },
+     {
+      "count": 26,
+      "value": "BE"
+     },
+     {
+      "count": 22,
+      "value": "SE"
+     },
+     {
+      "count": 21,
+      "value": "NL"
+     },
+     {
+      "count": 19,
+      "value": "US"
+     },
+     {
+      "count": 17,
+      "value": "DK"
+     },
+     {
+      "count": 11,
+      "value": "DE"
+     },
+     {
+      "count": 8,
+      "value": "AU"
+     },
+     {
+      "count": 8,
+      "value": "NO"
+     },
+     {
+      "count": 7,
+      "value": "PT"
+     },
+     {
+      "count": 5,
+      "value": "MX"
+     },
+     {
+      "count": 5,
+      "value": "MY"
+     },
+     {
+      "count": 4,
+      "value": "FI"
+     }
+    ],
+    "port": [
+     {
+      "count": 217,
+      "value": 443
+     },
+     {
+      "count": 13,
+      "value": 1024
+     },
+     {
+      "count": 13,
+      "value": 8080
+     },
+     {
+      "count": 13,
+      "value": 8443
+     },
+     {
+      "count": 12,
+      "value": 8081
+     },
+     {
+      "count": 11,
+      "value": 10443
+     },
+     {
+      "count": 7,
+      "value": 4443
+     },
+     {
+      "count": 6,
+      "value": 6080
+     },
+     {
+      "count": 5,
+      "value": 8123
+     },
+     {
+      "count": 4,
+      "value": 3001
+     }
+    ]
+   },
+   "note": null
+  },
+  "carel_pcoweb_r16": {
+   "query": "http.title:\"pCOWeb\" after:22/10/2026",
+   "queried_at": "2026-11-07T09:50:40+0900",
+   "total": 442,
+   "summary": {},
+   "facets": {
+    "country": [
+     {
+      "count": 71,
+      "value": "CZ"
+     },
+     {
+      "count": 70,
+      "value": "GB"
+     },
+     {
+      "count": 55,
+      "value": "IT"
+     },
+     {
+      "count": 32,
+      "value": "FR"
+     },
+     {
+      "count": 25,
+      "value": "DE"
+     },
+     {
+      "count": 24,
+      "value": "PL"
+     },
+     {
+      "count": 17,
+      "value": "AT"
+     },
+     {
+      "count": 17,
+      "value": "FI"
+     },
+     {
+      "count": 16,
+      "value": "SI"
+     },
+     {
+      "count": 15,
+      "value": "NL"
+     },
+     {
+      "count": 10,
+      "value": "CH"
+     },
+     {
+      "count": 10,
+      "value": "ES"
+     },
+     {
+      "count": 8,
+      "value": "ID"
+     },
+     {
+      "count": 8,
+      "value": "LT"
+     },
+     {
+      "count": 8,
+      "value": "RO"
+     },
+     {
+      "count": 8,
+      "value": "US"
+     },
+     {
+      "count": 7,
+      "value": "SK"
+     },
+     {
+      "count": 5,
+      "value": "BG"
+     },
+     {
+      "count": 5,
+      "value": "EE"
+     },
+     {
+      "count": 4,
+      "value": "CA"
+     },
+     {
+      "count": 4,
+      "value": "GR"
+     },
+     {
+      "count": 4,
+      "value": "IE"
+     },
+     {
+      "count": 4,
+      "value": "JE"
+     },
+     {
+      "count": 3,
+      "value": "AU"
+     },
+     {
+      "count": 2,
+      "value": "TH"
+     },
+     {
+      "count": 1,
+      "value": "BE"
+     },
+     {
+      "count": 1,
+      "value": "BR"
+     },
+     {
+      "count": 1,
+      "value": "CO"
+     },
+     {
+      "count": 1,
+      "value": "DK"
+     },
+     {
+      "count": 1,
+      "value": "GE"
+     }
+    ]
+   },
+   "note": null
+  },
+  "eliwell_r16": {
+   "query": "http.title:\"Televis Go\" after:22/10/2026",
+   "queried_at": "2026-11-07T09:50:42+0900",
+   "total": 32,
+   "summary": {},
+   "facets": {},
+   "note": null
+  }
+ },
+ "finished_at": "2026-11-07T09:50:43+0900",
+ "public_note": "round 7: sanitized for publication. Removed facets: asn, http.favicon.hash, http.html_hash, isp, org, ssl.cert.fingerprint, ssl.cert.issuer.cn, ssl.cert.serial, ssl.cert.subject.cn. Non-product page titles merged into '(other titles, redacted)'. HTML hash values in queries redacted."
+}

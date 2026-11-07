@@ -1,0 +1,1796 @@
+{
+ "round": "7b",
+ "started_at": "2026-11-07T09:57:14+0900",
+ "windows": {
+  "NEW": "after:04/11/2026",
+  "OLD": "before:04/11/2026"
+ },
+ "results": {
+  "NL_new": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:NL after:04/11/2026",
+   "queried_at": "2026-11-07T09:57:14+0900",
+   "total": 1131,
+   "top3_share": {
+    "org": 0.996,
+    "asn": 0.996,
+    "port": 0.478,
+    "http.html_hash": 0.998
+   },
+   "facets": {
+    "ssl.version": [
+     {
+      "count": 8,
+      "value": "tlsv1.2"
+     },
+     {
+      "count": 5,
+      "value": "tlsv1"
+     },
+     {
+      "count": 5,
+      "value": "tlsv1.1"
+     },
+     {
+      "count": 1,
+      "value": "tlsv1.3"
+     }
+    ],
+    "http.title": [
+     {
+      "count": 1130,
+      "value": "Danfoss StoreView"
+     },
+     {
+      "count": 1,
+      "value": "Danfoss - StoreView Web"
+     }
+    ],
+    "port": [
+     {
+      "count": 9,
+      "value": 443
+     },
+     {
+      "count": 1,
+      "value": 11
+     },
+     {
+      "count": 1,
+      "value": 13
+     },
+     {
+      "count": 1,
+      "value": 15
+     },
+     {
+      "count": 1,
+      "value": 17
+     },
+     {
+      "count": 1,
+      "value": 19
+     },
+     {
+      "count": 1,
+      "value": 20
+     },
+     {
+      "count": 1,
+      "value": 21
+     },
+     {
+      "count": 1,
+      "value": 23
+     },
+     {
+      "count": 1,
+      "value": 25
+     },
+     {
+      "count": 1,
+      "value": 37
+     },
+     {
+      "count": 1,
+      "value": 43
+     },
+     {
+      "count": 1,
+      "value": 49
+     },
+     {
+      "count": 1,
+      "value": 53
+     },
+     {
+      "count": 1,
+      "value": 79
+     }
+    ],
+    "tag": [
+     {
+      "count": 36,
+      "value": "self-signed"
+     },
+     {
+      "count": 7,
+      "value": "eol-product"
+     }
+    ],
+    "version": [
+     {
+      "count": 6,
+      "value": "1.26.0"
+     },
+     {
+      "count": 1,
+      "value": "1.12.2"
+     }
+    ]
+   },
+   "note": null
+  },
+  "NL_old": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:NL before:04/11/2026",
+   "queried_at": "2026-11-07T09:57:16+0900",
+   "total": 51,
+   "top3_share": {
+    "org": 0.647,
+    "asn": 0.686,
+    "port": 0.765,
+    "http.html_hash": 0.745
+   },
+   "facets": {
+    "ssl.version": [
+     {
+      "count": 25,
+      "value": "tlsv1.2"
+     },
+     {
+      "count": 13,
+      "value": "tlsv1"
+     },
+     {
+      "count": 13,
+      "value": "tlsv1.1"
+     }
+    ],
+    "http.title": [
+     {
+      "count": 45,
+      "value": "Danfoss StoreView"
+     },
+     {
+      "count": 6,
+      "value": "Danfoss - StoreView Web"
+     }
+    ],
+    "port": [
+     {
+      "count": 25,
+      "value": 443
+     },
+     {
+      "count": 9,
+      "value": 8080
+     },
+     {
+      "count": 5,
+      "value": 4443
+     },
+     {
+      "count": 2,
+      "value": 444
+     },
+     {
+      "count": 2,
+      "value": 8443
+     },
+     {
+      "count": 1,
+      "value": 80
+     },
+     {
+      "count": 1,
+      "value": 4444
+     },
+     {
+      "count": 1,
+      "value": 7010
+     },
+     {
+      "count": 1,
+      "value": 7014
+     },
+     {
+      "count": 1,
+      "value": 8012
+     },
+     {
+      "count": 1,
+      "value": 8081
+     },
+     {
+      "count": 1,
+      "value": 8181
+     },
+     {
+      "count": 1,
+      "value": 12443
+     }
+    ],
+    "tag": [
+     {
+      "count": 15,
+      "value": "eol-product"
+     }
+    ],
+    "version": [
+     {
+      "count": 11,
+      "value": "1.26.0"
+     },
+     {
+      "count": 3,
+      "value": "1.12.2"
+     },
+     {
+      "count": 1,
+      "value": "1.28.3"
+     }
+    ]
+   },
+   "note": null
+  },
+  "NL_new_tls": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:NL ssl:true after:04/11/2026",
+   "queried_at": "2026-11-07T09:57:17+0900",
+   "total": 5,
+   "top3_share": {},
+   "facets": {},
+   "note": null
+  },
+  "NL_new_tagged": {
+   "query": "http.title:\"StoreView\" -org:\"iiNet Connect Pty Ltd\" country:NL after:04/11/2026 (tag:honeypot OR tag:cloud)",
+   "queried_at": "2026-11-07T09:57:19+0900",
+   "error": "Invalid search query"
+  },
+  "NL_new_hash3": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:NL http.html_hash:<REDACTED> after:04/11/2026",
+   "queried_at": "2026-11-07T09:57:26+0900",
+   "total": 1126,
+   "top3_share": {},
+   "facets": {},
+   "note": null
+  },
+  "CN_new": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:CN after:04/11/2026",
+   "queried_at": "2026-11-07T09:57:28+0900",
+   "total": 141,
+   "top3_share": {
+    "org": 0.915,
+    "asn": 1.0,
+    "port": 0.286,
+    "http.html_hash": 0.2
+   },
+   "facets": {
+    "ssl.version": [],
+    "http.title": [
+     {
+      "count": 77,
+      "value": "Danfoss StoreView"
+     },
+     {
+      "count": 64,
+      "value": "StoreView - Login"
+     }
+    ],
+    "port": [
+     {
+      "count": 2,
+      "value": 3105
+     },
+     {
+      "count": 2,
+      "value": 8025
+     },
+     {
+      "count": 2,
+      "value": 12223
+     },
+     {
+      "count": 2,
+      "value": 21234
+     },
+     {
+      "count": 2,
+      "value": 23023
+     },
+     {
+      "count": 2,
+      "value": 60001
+     },
+     {
+      "count": 1,
+      "value": 15
+     },
+     {
+      "count": 1,
+      "value": 17
+     },
+     {
+      "count": 1,
+      "value": 880
+     },
+     {
+      "count": 1,
+      "value": 953
+     },
+     {
+      "count": 1,
+      "value": 1024
+     },
+     {
+      "count": 1,
+      "value": 1110
+     },
+     {
+      "count": 1,
+      "value": 1181
+     },
+     {
+      "count": 1,
+      "value": 1444
+     },
+     {
+      "count": 1,
+      "value": 1935
+     }
+    ],
+    "tag": [
+     {
+      "count": 4,
+      "value": "self-signed"
+     },
+     {
+      "count": 3,
+      "value": "eol-product"
+     }
+    ],
+    "version": [
+     {
+      "count": 6,
+      "value": "10.4"
+     },
+     {
+      "count": 2,
+      "value": "1.15.12"
+     },
+     {
+      "count": 1,
+      "value": "1.14.2"
+     },
+     {
+      "count": 1,
+      "value": "6.1"
+     }
+    ]
+   },
+   "note": null
+  },
+  "CN_old": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:CN before:04/11/2026",
+   "queried_at": "2026-11-07T09:57:29+0900",
+   "total": 8,
+   "top3_share": {
+    "org": 1.0,
+    "asn": 1.0,
+    "port": 0.375,
+    "http.html_hash": 1.0
+   },
+   "facets": {
+    "ssl.version": [],
+    "http.title": [
+     {
+      "count": 7,
+      "value": "Danfoss StoreView"
+     },
+     {
+      "value": "(other titles, redacted)",
+      "count": 1
+     }
+    ],
+    "port": [
+     {
+      "count": 1,
+      "value": 80
+     },
+     {
+      "count": 1,
+      "value": 1971
+     },
+     {
+      "count": 1,
+      "value": 3922
+     },
+     {
+      "count": 1,
+      "value": 7444
+     },
+     {
+      "count": 1,
+      "value": 12155
+     },
+     {
+      "count": 1,
+      "value": 12179
+     },
+     {
+      "count": 1,
+      "value": 12411
+     },
+     {
+      "count": 1,
+      "value": 20900
+     }
+    ],
+    "tag": [
+     {
+      "count": 1,
+      "value": "eol-product"
+     }
+    ],
+    "version": [
+     {
+      "count": 1,
+      "value": "1.24.0"
+     }
+    ]
+   },
+   "note": null
+  },
+  "CN_new_tls": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:CN ssl:true after:04/11/2026",
+   "queried_at": "2026-11-07T09:57:30+0900",
+   "total": 0,
+   "top3_share": {},
+   "facets": {},
+   "note": null
+  },
+  "CN_new_tagged": {
+   "query": "http.title:\"StoreView\" -org:\"iiNet Connect Pty Ltd\" country:CN after:04/11/2026 (tag:honeypot OR tag:cloud)",
+   "queried_at": "2026-11-07T09:57:32+0900",
+   "error": "Invalid search query"
+  },
+  "CN_new_hash3": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:CN http.html_hash:<REDACTED> after:04/11/2026",
+   "queried_at": "2026-11-07T09:57:40+0900",
+   "total": 0,
+   "top3_share": {},
+   "facets": {},
+   "note": null
+  },
+  "HK_new": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:HK after:04/11/2026",
+   "queried_at": "2026-11-07T09:57:41+0900",
+   "total": 114,
+   "top3_share": {
+    "org": 1.0,
+    "asn": 1.0,
+    "port": 0.25,
+    "http.html_hash": 1.0
+   },
+   "facets": {
+    "ssl.version": [],
+    "http.title": [
+     {
+      "count": 114,
+      "value": "Danfoss StoreView"
+     }
+    ],
+    "port": [
+     {
+      "count": 2,
+      "value": 3064
+     },
+     {
+      "count": 1,
+      "value": 21
+     },
+     {
+      "count": 1,
+      "value": 99
+     },
+     {
+      "count": 1,
+      "value": 311
+     },
+     {
+      "count": 1,
+      "value": 347
+     },
+     {
+      "count": 1,
+      "value": 646
+     },
+     {
+      "count": 1,
+      "value": 999
+     },
+     {
+      "count": 1,
+      "value": 1883
+     },
+     {
+      "count": 1,
+      "value": 1954
+     },
+     {
+      "count": 1,
+      "value": 2083
+     },
+     {
+      "count": 1,
+      "value": 2352
+     },
+     {
+      "count": 1,
+      "value": 2555
+     },
+     {
+      "count": 1,
+      "value": 2562
+     },
+     {
+      "count": 1,
+      "value": 2762
+     },
+     {
+      "count": 1,
+      "value": 3009
+     }
+    ],
+    "tag": [
+     {
+      "count": 4,
+      "value": "self-signed"
+     }
+    ],
+    "version": []
+   },
+   "note": null
+  },
+  "HK_old": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:HK before:04/11/2026",
+   "queried_at": "2026-11-07T09:57:42+0900",
+   "total": 0,
+   "top3_share": {},
+   "facets": {
+    "ssl.version": [],
+    "http.title": [],
+    "port": [],
+    "tag": [],
+    "version": []
+   },
+   "note": null
+  },
+  "HK_new_tls": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:HK ssl:true after:04/11/2026",
+   "queried_at": "2026-11-07T09:57:44+0900",
+   "total": 0,
+   "top3_share": {},
+   "facets": {},
+   "note": null
+  },
+  "HK_new_tagged": {
+   "query": "http.title:\"StoreView\" -org:\"iiNet Connect Pty Ltd\" country:HK after:04/11/2026 (tag:honeypot OR tag:cloud)",
+   "queried_at": "2026-11-07T09:57:45+0900",
+   "error": "Invalid search query"
+  },
+  "HK_new_hash3": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:HK http.html_hash:<REDACTED> after:04/11/2026",
+   "queried_at": "2026-11-07T09:57:52+0900",
+   "total": 114,
+   "top3_share": {},
+   "facets": {},
+   "note": null
+  },
+  "LV_new": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:LV after:04/11/2026",
+   "queried_at": "2026-11-07T09:57:54+0900",
+   "total": 57,
+   "top3_share": {
+    "org": 1.0,
+    "asn": 1.0,
+    "port": 0.2,
+    "http.html_hash": 1.0
+   },
+   "facets": {
+    "ssl.version": [
+     {
+      "count": 1,
+      "value": "tlsv1"
+     },
+     {
+      "count": 1,
+      "value": "tlsv1.1"
+     },
+     {
+      "count": 1,
+      "value": "tlsv1.2"
+     },
+     {
+      "count": 1,
+      "value": "tlsv1.3"
+     }
+    ],
+    "http.title": [
+     {
+      "count": 57,
+      "value": "Danfoss StoreView"
+     }
+    ],
+    "port": [
+     {
+      "count": 1,
+      "value": 179
+     },
+     {
+      "count": 1,
+      "value": 443
+     },
+     {
+      "count": 1,
+      "value": 1080
+     },
+     {
+      "count": 1,
+      "value": 1200
+     },
+     {
+      "count": 1,
+      "value": 2008
+     },
+     {
+      "count": 1,
+      "value": 2558
+     },
+     {
+      "count": 1,
+      "value": 3021
+     },
+     {
+      "count": 1,
+      "value": 3062
+     },
+     {
+      "count": 1,
+      "value": 3070
+     },
+     {
+      "count": 1,
+      "value": 3077
+     },
+     {
+      "count": 1,
+      "value": 3530
+     },
+     {
+      "count": 1,
+      "value": 3549
+     },
+     {
+      "count": 1,
+      "value": 3569
+     },
+     {
+      "count": 1,
+      "value": 4369
+     },
+     {
+      "count": 1,
+      "value": 4664
+     }
+    ],
+    "tag": [
+     {
+      "count": 4,
+      "value": "self-signed"
+     }
+    ],
+    "version": []
+   },
+   "note": null
+  },
+  "LV_old": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:LV before:04/11/2026",
+   "queried_at": "2026-11-07T09:57:55+0900",
+   "total": 0,
+   "top3_share": {},
+   "facets": {
+    "ssl.version": [],
+    "http.title": [],
+    "port": [],
+    "tag": [],
+    "version": []
+   },
+   "note": null
+  },
+  "LV_new_tls": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:LV ssl:true after:04/11/2026",
+   "queried_at": "2026-11-07T09:57:56+0900",
+   "total": 0,
+   "top3_share": {},
+   "facets": {},
+   "note": null
+  },
+  "LV_new_tagged": {
+   "query": "http.title:\"StoreView\" -org:\"iiNet Connect Pty Ltd\" country:LV after:04/11/2026 (tag:honeypot OR tag:cloud)",
+   "queried_at": "2026-11-07T09:57:58+0900",
+   "error": "Invalid search query"
+  },
+  "LV_new_hash3": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:LV http.html_hash:<REDACTED> after:04/11/2026",
+   "queried_at": "2026-11-07T09:58:06+0900",
+   "total": 57,
+   "top3_share": {},
+   "facets": {},
+   "note": null
+  },
+  "SG_new": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:SG after:04/11/2026",
+   "queried_at": "2026-11-07T09:58:07+0900",
+   "total": 56,
+   "top3_share": {
+    "org": 1.0,
+    "asn": 1.0,
+    "port": 0.2,
+    "http.html_hash": 1.0
+   },
+   "facets": {
+    "ssl.version": [],
+    "http.title": [
+     {
+      "count": 56,
+      "value": "Danfoss StoreView"
+     }
+    ],
+    "port": [
+     {
+      "count": 1,
+      "value": 491
+     },
+     {
+      "count": 1,
+      "value": 1249
+     },
+     {
+      "count": 1,
+      "value": 2233
+     },
+     {
+      "count": 1,
+      "value": 3155
+     },
+     {
+      "count": 1,
+      "value": 3170
+     },
+     {
+      "count": 1,
+      "value": 4042
+     },
+     {
+      "count": 1,
+      "value": 5009
+     },
+     {
+      "count": 1,
+      "value": 5051
+     },
+     {
+      "count": 1,
+      "value": 5264
+     },
+     {
+      "count": 1,
+      "value": 5266
+     },
+     {
+      "count": 1,
+      "value": 5801
+     },
+     {
+      "count": 1,
+      "value": 6001
+     },
+     {
+      "count": 1,
+      "value": 8068
+     },
+     {
+      "count": 1,
+      "value": 8079
+     },
+     {
+      "count": 1,
+      "value": 8131
+     }
+    ],
+    "tag": [
+     {
+      "count": 4,
+      "value": "self-signed"
+     }
+    ],
+    "version": []
+   },
+   "note": null
+  },
+  "SG_old": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:SG before:04/11/2026",
+   "queried_at": "2026-11-07T09:58:08+0900",
+   "total": 0,
+   "top3_share": {},
+   "facets": {
+    "ssl.version": [],
+    "http.title": [],
+    "port": [],
+    "tag": [],
+    "version": []
+   },
+   "note": null
+  },
+  "SG_new_tls": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:SG ssl:true after:04/11/2026",
+   "queried_at": "2026-11-07T09:58:09+0900",
+   "total": 0,
+   "top3_share": {},
+   "facets": {},
+   "note": null
+  },
+  "SG_new_tagged": {
+   "query": "http.title:\"StoreView\" -org:\"iiNet Connect Pty Ltd\" country:SG after:04/11/2026 (tag:honeypot OR tag:cloud)",
+   "queried_at": "2026-11-07T09:58:11+0900",
+   "error": "Invalid search query"
+  },
+  "SG_new_hash3": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:SG http.html_hash:<REDACTED> after:04/11/2026",
+   "queried_at": "2026-11-07T09:58:18+0900",
+   "total": 56,
+   "top3_share": {},
+   "facets": {},
+   "note": null
+  },
+  "FR_new": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:FR after:04/11/2026",
+   "queried_at": "2026-11-07T09:58:20+0900",
+   "total": 132,
+   "top3_share": {
+    "org": 0.767,
+    "asn": 0.848,
+    "port": 0.696,
+    "http.html_hash": 0.826
+   },
+   "facets": {
+    "ssl.version": [
+     {
+      "count": 12,
+      "value": "tlsv1.2"
+     },
+     {
+      "count": 4,
+      "value": "tlsv1"
+     },
+     {
+      "count": 4,
+      "value": "tlsv1.1"
+     }
+    ],
+    "http.title": [
+     {
+      "count": 119,
+      "value": "Danfoss StoreView"
+     },
+     {
+      "count": 12,
+      "value": "Danfoss - StoreView Web"
+     },
+     {
+      "value": "(other titles, redacted)",
+      "count": 1
+     }
+    ],
+    "port": [
+     {
+      "count": 23,
+      "value": 80
+     },
+     {
+      "count": 13,
+      "value": 1024
+     },
+     {
+      "count": 12,
+      "value": 443
+     },
+     {
+      "count": 4,
+      "value": 9080
+     },
+     {
+      "count": 3,
+      "value": 8081
+     },
+     {
+      "count": 2,
+      "value": 81
+     },
+     {
+      "count": 2,
+      "value": 8080
+     },
+     {
+      "count": 2,
+      "value": 8085
+     },
+     {
+      "count": 2,
+      "value": 8443
+     },
+     {
+      "count": 1,
+      "value": 13
+     },
+     {
+      "count": 1,
+      "value": 15
+     },
+     {
+      "count": 1,
+      "value": 440
+     },
+     {
+      "count": 1,
+      "value": 444
+     },
+     {
+      "count": 1,
+      "value": 448
+     },
+     {
+      "count": 1,
+      "value": 1207
+     }
+    ],
+    "tag": [
+     {
+      "count": 30,
+      "value": "eol-product"
+     },
+     {
+      "count": 3,
+      "value": "self-signed"
+     }
+    ],
+    "version": [
+     {
+      "count": 20,
+      "value": "1.26.0"
+     },
+     {
+      "count": 6,
+      "value": "1.12.2"
+     },
+     {
+      "count": 4,
+      "value": "1.21.1"
+     }
+    ]
+   },
+   "note": null
+  },
+  "FR_old": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:FR before:04/11/2026",
+   "queried_at": "2026-11-07T09:58:21+0900",
+   "total": 1144,
+   "top3_share": {
+    "org": 0.742,
+    "asn": 0.844,
+    "port": 0.705,
+    "http.html_hash": 0.713
+   },
+   "facets": {
+    "ssl.version": [
+     {
+      "count": 119,
+      "value": "tlsv1.2"
+     },
+     {
+      "count": 35,
+      "value": "tlsv1"
+     },
+     {
+      "count": 35,
+      "value": "tlsv1.1"
+     }
+    ],
+    "http.title": [
+     {
+      "count": 1104,
+      "value": "Danfoss StoreView"
+     },
+     {
+      "count": 40,
+      "value": "Danfoss - StoreView Web"
+     }
+    ],
+    "port": [
+     {
+      "count": 219,
+      "value": 80
+     },
+     {
+      "count": 135,
+      "value": 8080
+     },
+     {
+      "count": 130,
+      "value": 443
+     },
+     {
+      "count": 32,
+      "value": 6080
+     },
+     {
+      "count": 27,
+      "value": 90
+     },
+     {
+      "count": 27,
+      "value": 1024
+     },
+     {
+      "count": 16,
+      "value": 8081
+     },
+     {
+      "count": 16,
+      "value": 8443
+     },
+     {
+      "count": 14,
+      "value": 81
+     },
+     {
+      "count": 14,
+      "value": 4433
+     },
+     {
+      "count": 13,
+      "value": 6443
+     },
+     {
+      "count": 12,
+      "value": 82
+     },
+     {
+      "count": 12,
+      "value": 10443
+     },
+     {
+      "count": 10,
+      "value": 4443
+     },
+     {
+      "count": 10,
+      "value": 8085
+     }
+    ],
+    "tag": [
+     {
+      "count": 405,
+      "value": "eol-product"
+     },
+     {
+      "count": 10,
+      "value": "self-signed"
+     }
+    ],
+    "version": [
+     {
+      "count": 302,
+      "value": "1.12.2"
+     },
+     {
+      "count": 54,
+      "value": "1.26.0"
+     },
+     {
+      "count": 49,
+      "value": "1.21.1"
+     }
+    ]
+   },
+   "note": null
+  },
+  "FR_new_tls": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:FR ssl:true after:04/11/2026",
+   "queried_at": "2026-11-07T09:58:22+0900",
+   "total": 21,
+   "top3_share": {},
+   "facets": {},
+   "note": null
+  },
+  "FR_new_tagged": {
+   "query": "http.title:\"StoreView\" -org:\"iiNet Connect Pty Ltd\" country:FR after:04/11/2026 (tag:honeypot OR tag:cloud)",
+   "queried_at": "2026-11-07T09:58:24+0900",
+   "error": "Invalid search query"
+  },
+  "FR_new_hash3": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:FR http.html_hash:<REDACTED> after:04/11/2026",
+   "queried_at": "2026-11-07T09:58:31+0900",
+   "total": 88,
+   "top3_share": {},
+   "facets": {},
+   "note": null
+  },
+  "US_new": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:US after:04/11/2026",
+   "queried_at": "2026-11-07T09:58:32+0900",
+   "total": 33,
+   "top3_share": {
+    "org": 0.667,
+    "asn": 0.515,
+    "port": 0.606,
+    "http.html_hash": 0.788
+   },
+   "facets": {
+    "ssl.version": [
+     {
+      "count": 11,
+      "value": "tlsv1.2"
+     }
+    ],
+    "http.title": [
+     {
+      "count": 22,
+      "value": "Danfoss StoreView"
+     },
+     {
+      "count": 11,
+      "value": "Danfoss - StoreView Web"
+     }
+    ],
+    "port": [
+     {
+      "count": 11,
+      "value": 443
+     },
+     {
+      "count": 6,
+      "value": 80
+     },
+     {
+      "count": 3,
+      "value": 5080
+     },
+     {
+      "count": 2,
+      "value": 8081
+     },
+     {
+      "count": 1,
+      "value": 6081
+     },
+     {
+      "count": 1,
+      "value": 6443
+     },
+     {
+      "count": 1,
+      "value": 8009
+     },
+     {
+      "count": 1,
+      "value": 8083
+     },
+     {
+      "count": 1,
+      "value": 8086
+     },
+     {
+      "count": 1,
+      "value": 8140
+     },
+     {
+      "count": 1,
+      "value": 9001
+     },
+     {
+      "count": 1,
+      "value": 9090
+     },
+     {
+      "count": 1,
+      "value": 9095
+     },
+     {
+      "count": 1,
+      "value": 20050
+     },
+     {
+      "count": 1,
+      "value": 55555
+     }
+    ],
+    "tag": [
+     {
+      "count": 6,
+      "value": "eol-product"
+     },
+     {
+      "count": 6,
+      "value": "self-signed"
+     }
+    ],
+    "version": [
+     {
+      "count": 3,
+      "value": "1.26.0"
+     },
+     {
+      "count": 2,
+      "value": "1.12.2"
+     },
+     {
+      "count": 1,
+      "value": "1.21.1"
+     }
+    ]
+   },
+   "note": null
+  },
+  "US_old": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:US before:04/11/2026",
+   "queried_at": "2026-11-07T09:58:34+0900",
+   "total": 56,
+   "top3_share": {
+    "org": 0.643,
+    "asn": 0.509,
+    "port": 0.589,
+    "http.html_hash": 0.643
+   },
+   "facets": {
+    "ssl.version": [
+     {
+      "count": 13,
+      "value": "tlsv1.2"
+     },
+     {
+      "count": 3,
+      "value": "tlsv1"
+     },
+     {
+      "count": 3,
+      "value": "tlsv1.1"
+     },
+     {
+      "count": 1,
+      "value": "tlsv1.3"
+     }
+    ],
+    "http.title": [
+     {
+      "count": 45,
+      "value": "Danfoss StoreView"
+     },
+     {
+      "count": 11,
+      "value": "Danfoss - StoreView Web"
+     }
+    ],
+    "port": [
+     {
+      "count": 14,
+      "value": 443
+     },
+     {
+      "count": 13,
+      "value": 80
+     },
+     {
+      "count": 6,
+      "value": 5080
+     },
+     {
+      "count": 4,
+      "value": 81
+     },
+     {
+      "count": 3,
+      "value": 82
+     },
+     {
+      "count": 3,
+      "value": 84
+     },
+     {
+      "count": 3,
+      "value": 8080
+     },
+     {
+      "count": 2,
+      "value": 83
+     },
+     {
+      "count": 2,
+      "value": 8443
+     },
+     {
+      "count": 1,
+      "value": 85
+     },
+     {
+      "count": 1,
+      "value": 446
+     },
+     {
+      "count": 1,
+      "value": 5443
+     },
+     {
+      "count": 1,
+      "value": 6580
+     },
+     {
+      "count": 1,
+      "value": 8081
+     },
+     {
+      "count": 1,
+      "value": 9083
+     }
+    ],
+    "tag": [
+     {
+      "count": 15,
+      "value": "eol-product"
+     },
+     {
+      "count": 1,
+      "value": "self-signed"
+     }
+    ],
+    "version": [
+     {
+      "count": 7,
+      "value": "1.26.0"
+     },
+     {
+      "count": 6,
+      "value": "1.12.2"
+     },
+     {
+      "count": 1,
+      "value": "1.21.1"
+     },
+     {
+      "count": 1,
+      "value": "1.27.1"
+     }
+    ]
+   },
+   "note": null
+  },
+  "US_new_tls": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:US ssl:true after:04/11/2026",
+   "queried_at": "2026-11-07T09:58:36+0900",
+   "total": 6,
+   "top3_share": {},
+   "facets": {},
+   "note": null
+  },
+  "US_new_tagged": {
+   "query": "http.title:\"StoreView\" -org:\"iiNet Connect Pty Ltd\" country:US after:04/11/2026 (tag:honeypot OR tag:cloud)",
+   "queried_at": "2026-11-07T09:58:38+0900",
+   "error": "Invalid search query"
+  },
+  "US_new_hash3": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" country:US http.html_hash:<REDACTED> after:04/11/2026",
+   "queried_at": "2026-11-07T09:58:46+0900",
+   "total": 13,
+   "top3_share": {},
+   "facets": {},
+   "note": null
+  },
+  "all_new": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" after:04/11/2026",
+   "queried_at": "2026-11-07T09:58:47+0900",
+   "total": 1861,
+   "top3_share": {
+    "org": 0.788,
+    "asn": 0.746,
+    "port": 0.752,
+    "http.html_hash": 0.955
+   },
+   "facets": {
+    "ssl.version": [
+     {
+      "count": 85,
+      "value": "tlsv1.2"
+     },
+     {
+      "count": 14,
+      "value": "tlsv1"
+     },
+     {
+      "count": 14,
+      "value": "tlsv1.1"
+     },
+     {
+      "count": 6,
+      "value": "tlsv1.3"
+     }
+    ],
+    "http.title": [
+     {
+      "count": 1723,
+      "value": "Danfoss StoreView"
+     },
+     {
+      "count": 81,
+      "value": "StoreView - Login"
+     },
+     {
+      "count": 54,
+      "value": "Danfoss - StoreView Web"
+     },
+     {
+      "value": "(other titles, redacted)",
+      "count": 3
+     }
+    ],
+    "port": [
+     {
+      "count": 87,
+      "value": 443
+     },
+     {
+      "count": 49,
+      "value": 80
+     },
+     {
+      "count": 16,
+      "value": 1024
+     },
+     {
+      "count": 10,
+      "value": 8081
+     },
+     {
+      "count": 8,
+      "value": 3001
+     },
+     {
+      "count": 7,
+      "value": 81
+     },
+     {
+      "count": 4,
+      "value": 8443
+     },
+     {
+      "count": 3,
+      "value": 15
+     },
+     {
+      "count": 3,
+      "value": 21
+     },
+     {
+      "count": 3,
+      "value": 2008
+     },
+     {
+      "count": 3,
+      "value": 2233
+     },
+     {
+      "count": 3,
+      "value": 3070
+     },
+     {
+      "count": 2,
+      "value": 13
+     },
+     {
+      "count": 2,
+      "value": 17
+     },
+     {
+      "count": 2,
+      "value": 82
+     }
+    ],
+    "tag": [
+     {
+      "count": 80,
+      "value": "eol-product"
+     },
+     {
+      "count": 79,
+      "value": "self-signed"
+     },
+     {
+      "count": 1,
+      "value": "pqc"
+     }
+    ],
+    "version": [
+     {
+      "count": 51,
+      "value": "1.26.0"
+     },
+     {
+      "count": 20,
+      "value": "1.12.2"
+     },
+     {
+      "count": 7,
+      "value": "10.4"
+     },
+     {
+      "count": 5,
+      "value": "1.21.1"
+     },
+     {
+      "count": 2,
+      "value": "1.15.12"
+     },
+     {
+      "count": 1,
+      "value": "1.14.2"
+     },
+     {
+      "count": 1,
+      "value": "1.18.0"
+     },
+     {
+      "count": 1,
+      "value": "6.1"
+     }
+    ]
+   },
+   "note": null
+  },
+  "all_new_ex5": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" after:04/11/2026 -country:NL -country:CN -country:HK -country:LV -country:SG",
+   "queried_at": "2026-11-07T09:58:49+0900",
+   "total": 362,
+   "top3_share": {
+    "org": 0.561,
+    "asn": 0.554,
+    "port": 0.714,
+    "http.html_hash": 0.777
+   },
+   "facets": {
+    "ssl.version": [
+     {
+      "count": 76,
+      "value": "tlsv1.2"
+     },
+     {
+      "count": 8,
+      "value": "tlsv1"
+     },
+     {
+      "count": 8,
+      "value": "tlsv1.1"
+     },
+     {
+      "count": 4,
+      "value": "tlsv1.3"
+     }
+    ],
+    "http.title": [
+     {
+      "count": 289,
+      "value": "Danfoss StoreView"
+     },
+     {
+      "count": 53,
+      "value": "Danfoss - StoreView Web"
+     },
+     {
+      "count": 17,
+      "value": "StoreView - Login"
+     },
+     {
+      "value": "(other titles, redacted)",
+      "count": 3
+     }
+    ],
+    "port": [
+     {
+      "count": 77,
+      "value": 443
+     },
+     {
+      "count": 49,
+      "value": 80
+     },
+     {
+      "count": 14,
+      "value": 1024
+     },
+     {
+      "count": 11,
+      "value": 8081
+     },
+     {
+      "count": 7,
+      "value": 81
+     },
+     {
+      "count": 7,
+      "value": 3001
+     },
+     {
+      "count": 7,
+      "value": 8443
+     },
+     {
+      "count": 4,
+      "value": 8085
+     },
+     {
+      "count": 4,
+      "value": 9080
+     },
+     {
+      "count": 3,
+      "value": 5080
+     },
+     {
+      "count": 3,
+      "value": 6080
+     },
+     {
+      "count": 3,
+      "value": 8080
+     },
+     {
+      "count": 3,
+      "value": 8083
+     },
+     {
+      "count": 2,
+      "value": 445
+     },
+     {
+      "count": 2,
+      "value": 3790
+     }
+    ],
+    "tag": [
+     {
+      "count": 70,
+      "value": "eol-product"
+     },
+     {
+      "count": 27,
+      "value": "self-signed"
+     },
+     {
+      "count": 1,
+      "value": "pqc"
+     }
+    ],
+    "version": [
+     {
+      "count": 45,
+      "value": "1.26.0"
+     },
+     {
+      "count": 19,
+      "value": "1.12.2"
+     },
+     {
+      "count": 5,
+      "value": "1.21.1"
+     },
+     {
+      "count": 1,
+      "value": "1.18.0"
+     },
+     {
+      "count": 1,
+      "value": "10.4"
+     }
+    ]
+   },
+   "note": null
+  },
+  "all_new_hash3": {
+   "query": "http.title:\"StoreView\" -tag:cloud -tag:honeypot -org:\"iiNet Connect Pty Ltd\" http.html_hash:<REDACTED> after:04/11/2026",
+   "queried_at": "2026-11-07T09:58:50+0900",
+   "total": 1536,
+   "top3_share": {
+    "org": 0.878
+   },
+   "facets": {
+    "country": [
+     {
+      "count": 1126,
+      "value": "NL"
+     },
+     {
+      "count": 114,
+      "value": "HK"
+     },
+     {
+      "count": 88,
+      "value": "FR"
+     },
+     {
+      "count": 57,
+      "value": "LV"
+     },
+     {
+      "count": 56,
+      "value": "SG"
+     },
+     {
+      "count": 32,
+      "value": "TR"
+     },
+     {
+      "count": 13,
+      "value": "US"
+     },
+     {
+      "count": 9,
+      "value": "AU"
+     },
+     {
+      "count": 6,
+      "value": "KZ"
+     },
+     {
+      "count": 5,
+      "value": "BR"
+     },
+     {
+      "count": 4,
+      "value": "PT"
+     },
+     {
+      "count": 3,
+      "value": "DE"
+     },
+     {
+      "count": 3,
+      "value": "SE"
+     },
+     {
+      "count": 2,
+      "value": "DK"
+     },
+     {
+      "count": 2,
+      "value": "ES"
+     }
+    ]
+   },
+   "note": null
+  },
+  "all_tagged_new": {
+   "query": "http.title:\"StoreView\" after:04/11/2026 (tag:honeypot OR tag:cloud)",
+   "queried_at": "2026-11-07T09:58:51+0900",
+   "error": "Invalid search query"
+  }
+ },
+ "finished_at": "2026-11-07T09:58:58+0900",
+ "public_note": "round 7b: sanitized for publication. Removed facets: asn, http.favicon.hash, http.html_hash, isp, org, ssl.cert.fingerprint, ssl.cert.issuer.cn, ssl.cert.serial, ssl.cert.subject.cn. Non-product page titles merged into '(other titles, redacted)'. HTML hash values in queries redacted."
+}
