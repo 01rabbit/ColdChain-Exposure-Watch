@@ -1,3 +1,5 @@
+![ColdChain-Exposure-Watch：冷蔵設備の管理画面の露出を、Shodan の集計値で定点観測する](images/banner.png)
+
 # ColdChain-Exposure-Watch
 
 スーパーマーケットや冷蔵倉庫で使われる**冷蔵設備の管理画面**が、インターネットからどれだけ見える状態にあるかを、Shodan の集計値だけで定点観測するためのスクリプト集です。
